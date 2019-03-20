@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Infinite Quiz</string>
+    <string name="m_normal">Normal</string>
+    <string name="m_tiempo">Tiempo</string>
+    <string name="radio">Opcion</string>
+    <string name="puntuacion">Puntuacion</string>
+    <string name="pregunta">Pregunta X/X</string>
+</resources>

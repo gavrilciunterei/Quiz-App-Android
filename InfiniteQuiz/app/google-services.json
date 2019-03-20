@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "57824583862",
+    "firebase_url": "https://loginapp-f9d96.firebaseio.com",
+    "project_id": "loginapp-f9d96",
+    "storage_bucket": "loginapp-f9d96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57824583862:android:c5e75b8066637c9b",
+        "android_client_info": {
+          "package_name": "com.example.diurno.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57824583862-gm30mng28u0dfgfe2g14i3rlrd2p2bdh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diurno.myapplication",
+            "certificate_hash": "380c08e61a7e2b3f3a6d518e75cdbcc437f35606"
+          }
+        },
+        {
+          "client_id": "57824583862-89jm5bb4q92uvs31vdm83oujmhnirgaa.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "57824583862-89jm5bb4q92uvs31vdm83oujmhnirgaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBESQ3bUlkBFoHoBbEBTDZjrhb-vnmp5xg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57824583862-89jm5bb4q92uvs31vdm83oujmhnirgaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

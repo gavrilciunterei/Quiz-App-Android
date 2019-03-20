@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:padding="15dp"
+    tools:context="com.example.diurno.myapplication.Inicio">
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/text_view_highscore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mejor puntuación: 0"
+            android:textColor="@color/blanco"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guideline">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:spinnerMode="dropdown"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="386dp"
+            />
+
+    </LinearLayout>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical|center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline">
+
+
+        <Button
+            android:id="@+id/btn_normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/botones_azul"
+            android:drawableLeft="@drawable/modo_normal"
+            android:drawableStart="@drawable/modo_normal"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="Modo Normal"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold"
+
+
+            />
+
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/btn_tiempo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/botones_azul"
+            android:drawableLeft="@drawable/modo_tiempo"
+            android:drawableStart="@drawable/modo_tiempo"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="Modo Tiempo"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+
+
+            <Button
+                android:id="@+id/btn_trofeos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/botones_azul"
+                android:drawableLeft="@drawable/ic_grade_black_24dp"
+                android:drawableStart="@drawable/ic_grade_black_24dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="Trofeos"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
